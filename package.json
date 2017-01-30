@@ -1,8 +1,9 @@
 {
   "name": "download.js",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A simple file downloader",
   "main": "index.js",
+  "types": "lib/download.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rm -rf lib && tsc",
