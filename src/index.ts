@@ -1,13 +1,13 @@
-function download(title: string, dataURL: string) {
+export function downloadUrl(title: string, url: string) {
   const a = document.createElement('a')
-  a.href = dataURL
+  a.href = url
   a.download = title
   a.click()
 }
 
 export function downloadBlob(title: string, blob: Blob) {
   const url = URL.createObjectURL(blob)
-  download(title, url)
+  downloadUrl(title, url)
   URL.revokeObjectURL(url)
 }
 

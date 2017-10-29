@@ -1,9 +1,9 @@
 {
   "name": "download.js",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "A simple file downloader",
-  "main": "index.js",
-  "types": "lib/download.d.ts",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rm -rf lib && tsc",
@@ -24,6 +24,6 @@
   },
   "homepage": "https://github.com/inker/download.js#readme",
   "devDependencies": {
-    "typescript": "^2.1.5"
+    "typescript": "^2.5.3"
   }
 }
